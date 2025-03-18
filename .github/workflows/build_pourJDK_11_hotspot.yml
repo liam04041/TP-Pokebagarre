@@ -31,6 +31,14 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4     # checkout the repo
+
+        - name: Set up Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: '21'
+            scope: '@recurate'
+            registry-url: 'https://npm.pkg.github.com/'
+            
         - run: npm ci                   # install packages
         - run: npm test                 # run tests (configured to use jest-junit reporter)
 
