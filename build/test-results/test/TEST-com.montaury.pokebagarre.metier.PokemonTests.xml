@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.montaury.pokebagarre.metier.PokemonTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-18T08:14:08" hostname="DESKTOP-OA8C2DI" time="0.056">
+  <properties/>
+  <testcase name="test_attaque_plus_basse_ne_gagne_pas()" classname="com.montaury.pokebagarre.metier.PokemonTests" time="0.051"/>
+  <testcase name="pokemon_1_gagne_car_meilleure_attaque()" classname="com.montaury.pokebagarre.metier.PokemonTests" time="0.0"/>
+  <testcase name="test_defense_identique_premier_gagne()" classname="com.montaury.pokebagarre.metier.PokemonTests" time="0.001"/>
+  <testcase name="test_attaque_egale_defense_gagne()" classname="com.montaury.pokebagarre.metier.PokemonTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
