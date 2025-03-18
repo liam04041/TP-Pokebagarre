@@ -1,6 +1,7 @@
 plugins {
   id 'application'
   id 'org.openjfx.javafxplugin' version '0.0.13'
+  id 'jacoco'
 }
 
 group 'com.montaury'
@@ -28,6 +29,16 @@ dependencies {
 java {
   toolchain {
     languageVersion = JavaLanguageVersion.of(18)
+  }
+}
+
+jacocoTestCoverageVerification {
+  violationRules {
+    rule {
+      limit {
+        minimum = 0.5
+      }
+    }
   }
 }
 
